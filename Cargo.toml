@@ -1,0 +1,17 @@
+[package]
+name = "bestagons"
+version = "0.1.0"
+authors = ["Maxime Hohl"]
+edition = "2021"
+description = "An hexagon coordinates library"
+readme = "README.md"
+repository = "https://github.com/mxhohl/bestagons"
+license = "MIT"
+keywords = ["coordinates", "hexagons", "gamedev"]
+categories = ["game-development", "mathematics"]
+
+[dependencies]
+forward_ref = "1.0"
+
+[features]
+use_flat_top = []
